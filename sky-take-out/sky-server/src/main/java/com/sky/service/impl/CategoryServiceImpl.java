@@ -36,7 +36,7 @@ public class CategoryServiceImpl implements CategoryService {
     private SetmealMapper setmealMapper;
 
     @Override
-    public List<Category> getType(String type) {
+    public List<Category> getType(Integer type) {
         List<Category> category=categoryMapper.getByType(type);
         return category;
     }

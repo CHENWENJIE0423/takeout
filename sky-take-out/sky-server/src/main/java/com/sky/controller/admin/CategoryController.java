@@ -35,7 +35,7 @@ public class CategoryController {
      */
     @GetMapping("/list")
     @ApiOperation("查询分类")
-    public Result<List<Category>> getType(String type){
+    public Result<List<Category>> getType(Integer type){
         List<Category> category=categoryService.getType(type);
         return Result.success(category);
     }
@@ -80,8 +80,7 @@ public class CategoryController {
 
     @DeleteMapping
     @ApiOperation("根据id删除员工")
-    public Result delete(Long
-                                     id){
+    public Result delete(Long id){
         categoryService.delete(id);
         return Result.success();
     }

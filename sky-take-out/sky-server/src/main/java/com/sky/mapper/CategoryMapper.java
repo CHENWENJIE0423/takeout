@@ -26,7 +26,7 @@ public interface CategoryMapper {
      * @return
      */
     @Select("select * from category where type=#{type}")
-    List<Category> getByType(String type);
+    List<Category> getByType(Integer type);
 
     /**
      * 插入分类

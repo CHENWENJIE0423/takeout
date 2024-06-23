@@ -13,7 +13,7 @@ import java.util.List;
  * @description
  */
 public interface CategoryService {
-    List<Category> getType(String type);
+    List<Category> getType(Integer type);
 
     void save(CategoryDTO categoryDTO);
 
