@@ -80,7 +80,8 @@ public class CategoryController {
 
     @DeleteMapping
     @ApiOperation("根据id删除员工")
-    public Result delete(Integer id){
+    public Result delete(Long
+                                     id){
         categoryService.delete(id);
         return Result.success();
     }

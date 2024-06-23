@@ -23,5 +23,5 @@ public interface CategoryService {
 
     void startOrStop(Integer status, Long id);
 
-    void delete(Integer id);
+    void delete(Long id);
 }
