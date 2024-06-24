@@ -14,3 +14,9 @@ sky:
     access-key-secret: ZcJnyLAAwj7qROSpItFt39nSvFxcQm
     access-key-id: LTAI5t8FDJL6Gcgv8R6d7B4y
 
+  #redis数据源
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
+
