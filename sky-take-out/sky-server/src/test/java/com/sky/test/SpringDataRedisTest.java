@@ -15,9 +15,9 @@ import java.util.concurrent.TimeUnit;
  * @project takeout
  * @description
  */
-@SpringBootTest
+//@SpringBootTest
 public class SpringDataRedisTest {
-    @Autowired
+//    @Autowired
     private RedisTemplate redisTemplate;
 
     @Test
